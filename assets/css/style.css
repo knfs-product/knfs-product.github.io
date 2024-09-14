@@ -131,16 +131,25 @@ h1 {
 }
 
 #prod-list .card-title {
-  color: #013c4d;
+  /* color: #013c4d; */
+  color: #ffffff !important;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.card-title a {
+  color: #ffffff !important;
 }
 
 #prod-list .card-text {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+#prod-list .card-description {
+  color: #ffffff !important;
 }
 
 .input-group {
@@ -273,4 +282,9 @@ a {
   100% {
     transform: rotate(360deg);
   }
+}
+
+#categorySelect {
+  padding-left: 0.6em;
+  width: 120px;
 }

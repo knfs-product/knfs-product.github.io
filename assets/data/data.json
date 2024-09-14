@@ -1,11 +1,58 @@
 [
 	{
 		"name": "Safety code",
+		"style": {
+			"background-image": "url('https://product.knfs-tech.com/safety-code/assets/img/background.png')",
+			"background-position": "right top"
+		},
 		"description": "Need a strong password? Try Our Password Generator to create complex passwords that will keep your information safe",
 		"home_url": "https://product.knfs-tech.com/safety-code/",
 		"for": [
 			"everyone",
-			"develop"
+			"develop",
+			"startup",
+			"enterprise"
+		]
+	},
+	{
+		"name": "Knfs Magazine",
+		"style": {
+			"background-color": "#c37f29"
+		},
+		"description": "Technology magazine, a place to share new trends in technology and the impact of technology on professions in life",
+		"home_url": "https://magazine.knfs-tech.com",
+		"for": [
+			"everyone",
+			"develop",
+			"startup",
+			"enterprise"
+		]
+	},
+	{
+		"name": "SSChat",
+		"style": {
+			"background-color": "#57aa99"
+		},
+		"description": "Super secret chat platform. User messages are not stored on the server, data is encrypted and stored locally",
+		"home_url": "https://sschat.knfs-tech.com",
+		"for": [
+			"everyone",
+			"develop",
+			"startup",
+			"enterprise"
+		]
+	},
+	{
+		"name": "Out-sourcing",
+		"style": {
+			"background-image": "url('assets/img/background-out-sourcing.png')",
+			"background-position": "right top"
+		},
+		"description": "Contact us if you need a software or material application development team, or you want to find a technology sponsor for your startup project.",
+		"home_url": "https://www.knfs-tech.com/#ourContact",
+		"for": [
+			"startup",
+			"enterprise"
 		]
 	}
 ]

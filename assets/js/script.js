@@ -80,10 +80,16 @@ document.addEventListener('DOMContentLoaded', () => {
           .filter(prod => prod.name.toLowerCase().includes(searchTerm))
           .filter(prod => category === '' || prod.for.includes(category)) // Filter by category
           .forEach(prod => {
+            let style = JSON.stringify(prod.style);
+            style = style.replaceAll(',', ';')
+            style = style.replaceAll('"', '')
+            style = style.replace('{', '')
+            style = style.replace('}', '')
+            
             const repoItem = document.createElement('div');
             repoItem.classList.add('col-md-6', 'mb-4');
             repoItem.innerHTML = `
-              <div class="card">
+              <div class="card" style="${style}">
                 <div class="card-body">
                   <h3 class="card-title">
                     <a href="${prod.home_url}" target="_blank" class="text-decoration-none hover-underline">${prod.name}</a>
