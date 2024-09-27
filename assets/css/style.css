@@ -122,7 +122,7 @@ h1 {
   transition: box-shadow 0.3s ease;
   overflow: hidden;
   height: 18em !important;
-  max-height: fit-content;
+  max-height: -webkit-fill-available;
 }
 
 #prod-list .card:hover {
