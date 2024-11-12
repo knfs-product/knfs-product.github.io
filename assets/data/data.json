@@ -29,12 +29,12 @@
 		]
 	},
 	{
-		"name": "SSChat",
+		"name": "Markdown Editor",
 		"style": {
 			"background-color": "#57aa99"
 		},
-		"description": "Super secret chat platform. User messages are not stored on the server, data is encrypted and stored locally",
-		"home_url": "https://sschat.knfs-tech.com",
+		"description": "The tool helps you work with editing markdown files more easily",
+		"home_url": "https://product.knfs-tech.com/md-editor",
 		"for": [
 			"everyone",
 			"develop",
