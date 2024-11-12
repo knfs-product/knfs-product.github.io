@@ -31,6 +31,7 @@
 	{
 		"name": "Markdown Editor",
 		"style": {
+			"background-image": "url('https://product.knfs-tech.com/md-editor/assets/img/background.png')",
 			"background-color": "#57aa99"
 		},
 		"description": "The tool helps you work with editing markdown files more easily",
